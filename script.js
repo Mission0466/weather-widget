@@ -546,6 +546,5 @@ function updateDom(data) {
     emojiField.src = `https:${data.current.condition.icon}`; // Add 'https:' to the icon URL
     cityField.innerText = data.location.name; // Update city name
     dateField.innerText = data.location.localtime; // Update local time
-    
   }
   
